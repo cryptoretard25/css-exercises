@@ -44,7 +44,7 @@ div.menu ul {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-flow: column;
-  grid-gap: 30px;
+  gap: 30px;
 }
 
 .sidebar {
@@ -91,7 +91,8 @@ div.menu ul {
 
 .nav ul {
   display: grid;
-  grid-template-columns: repeat(3, minmax(215px ,33%));
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: column;
   
 }
 
